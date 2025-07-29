@@ -1,52 +1,74 @@
-# MERN Stack Capstone Project
+# Digital Lost and Found System
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+A full-stack web application for managing lost and found items, built with React, Node.js, and MongoDB.
 
-## Assignment Overview
+## Features
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+- User authentication and authorization
+- Admin dashboard for managing users and items
+- User dashboard for reporting lost and found items
+- Contact messaging system
+- Image upload for items
+- Search and filter functionality
+- Responsive design
 
-## Getting Started
+## Prerequisites
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+Before you begin, ensure you have the following installed:
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- MongoDB (v4.4 or higher)
 
-## Files Included
+## Installation
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+### Clone the repository
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/week-8-capstone_-kubwimanav
+cd week-8-capstone_-kubwimanav
+```
 
-## Requirements
+###  Setup
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+1. Install dependencies:
+```bash
+npm run install-all
+```
+2. start application:
+```bash
+npm run dev
+```
 
-## Project Ideas
+## Accessing the Application
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+- Frontend: http://localhost:5173
+- Backend API: http://localhost:5000
+- API Documentation: http://localhost:5000/api-docs
 
-## Submission
+## Project Structure
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+```
+final-project/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── middleware/
+│   │   ├── index.js
+│   │   └── swagger.json
+│   ├── package.json
+│   └── .env
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   ├── AdminDashboard/
+    │   ├── UserDashboard/
+    │   ├── Context/
+    │   └── App.jsx
+    ├── package.json
+    └── vite.config.js
+```
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+## License
 
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+This project is licensed under the MIT License - see the LICENSE file for details.
